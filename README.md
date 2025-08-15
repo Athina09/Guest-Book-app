@@ -1,4 +1,4 @@
-# 📖 Guest Book App
+# 📖 Guest Book Webapp
 
 A simple **Guest Book** web application where users can leave their names and messages.  
 Built with **HTML**, **CSS**, and **JavaScript**.
