@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guestbook</h1>
+            <p>leave a message</p>
+        </header>
+
+        <form id="guestbook-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="name" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="message" required></textarea>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+
+        <div class="messages">
+            <h2>messages</h2>
+            <div id="messages-list">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
