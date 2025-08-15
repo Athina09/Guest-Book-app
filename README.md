@@ -25,13 +25,6 @@ Built with **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-## 📷 Preview
-![Guest Book Screenshot](assets/screenshot.png)
-
-*(Replace `assets/screenshot.png` with the actual path to your screenshot)*
-
----
-
 ## 📂 Installation & Usage
 1. **Clone the repository**
    ```bash
