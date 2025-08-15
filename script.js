@@ -1,7 +1,7 @@
 // get saved messages
 var messages = JSON.parse(localStorage.getItem('messages') || '[]');
 
-// show messages if there are any
+// show messages 
 if (messages.length == 0) {
     document.getElementById('messages-list').innerHTML = '<p style="text-align: center; color: #999;">no messages yet</p>';
 } else {
@@ -13,7 +13,7 @@ if (messages.length == 0) {
     }
 }
 
-// handle form submit
+// handle forms
 document.getElementById('guestbook-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
@@ -38,7 +38,7 @@ document.getElementById('guestbook-form').addEventListener('submit', function(e)
     // clear form
     document.getElementById('guestbook-form').reset();
     
-    // remove no messages text
+    // remove
     var p = document.getElementById('messages-list').querySelector('p');
     if (p) p.remove();
 });
