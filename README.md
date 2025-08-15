@@ -1,18 +1,30 @@
-# Guestbook
+# 📖 Guest Book App
 
-simple guestbook app. people can leave messages.
+A simple, interactive web application where visitors can leave their names and messages — like signing a real guest book, but online.  
+Built using **HTML**, **CSS**, and **JavaScript**.
 
-## how to use
+---
 
-1. open index.html in browser
-2. type name and message
-3. click submit
-4. message shows up
+## 🚀 Features
 
-## files
+- ✍️ Add your name and a personal message
+- 📜 View all previous guest entries instantly
+- 🗑️ Option to clear all messages (optional feature)
+- 🎨 Clean, responsive design for all devices
 
-- index.html - main page
-- style.css - styling
-- script.js - javascript
+---
 
-works in browser, no server needed.
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure of the app
+- **CSS3** – Styling and layout
+- **JavaScript (Vanilla)** – Interactivity and data handling
+- *(Optional)* LocalStorage – Save messages even after page refresh
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/Athina09/Guest-Book-app.git
